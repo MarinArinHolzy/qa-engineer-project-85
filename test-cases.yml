@@ -99,9 +99,9 @@
     no-data
   steps:
     - Нажать кнопку "CREATE A GAME"
-    - Выбрать Level: medium (три звезды)
-    - Выбрать Game Type: With a bot
-    - Установить Time control: 15 min
+    - Выбрать Level "medium" (три звезды)
+    - Выбрать Game Type "With a bot"
+    - Установить Time control "15 min"
     - Выбрать произвольное задание из выпадающего списка (Choose task by name or tags)
     - Нажать кнопку "Create battle"
   expected-result: |
@@ -117,7 +117,7 @@
     no-data
   steps:
     - Нажать кнопку "CREATE A GAME"
-    - Выбрать Game Type: With a friend
+    - Выбрать Game Type "With a friend"
     - Выбрать имя в выпадающем списке Choose opponent
     - Нажать кнопку "Create invite"
   expected-result: |
@@ -147,7 +147,7 @@
     no-data
   steps:
     - Нажать кнопку "CREATE A GAME"
-    - Создать игру Game Type: With other user
+    - Создать игру Game Type "With other user"
     - Нажать кнопку "Create battle"
   expected-result: |
     Созданная игра отображается в списке "Lobby" в ожидании второго игрока
